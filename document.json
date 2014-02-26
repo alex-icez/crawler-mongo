@@ -1,0 +1,55 @@
+{
+    "document": {
+        "properties": {
+            "author": {
+                "type": "string"
+            },
+            "comments": {
+                "properties": {
+                    "author": {
+                        "type": "string"
+                    },
+                    "date": {
+                        "type": "string"
+                    },
+                    "score": {
+                        "type": "long"
+                    },
+                    "text": {
+                        "type": "string"
+                    },
+                    "uuid": {
+                        "type": "string"
+                    }
+                }
+            },
+            "date": {
+                "type": "string"
+            },
+            "hubs": {
+                "type": "string"
+            },
+            "score": {
+                "type": "long"
+            },
+            "tags": {
+                "type": "string"
+            },
+            "text": {
+                "type": "string"
+            },
+            "title": {
+                "type": "string"
+            },
+            "url": {
+                "type": "string"
+            },
+            "uuid": {
+                "type": "string"
+            },
+            "views": {
+                "type": "long"
+            }
+        }
+    }
+}
