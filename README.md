@@ -13,7 +13,7 @@ crawler-mongo
 	mvn clean install
 6. Устанавливаем mongodb:
 	sudo apt-get install mongodb
-7. Запускаем mongodb
+7. Запускаем mongodb:
 	sudo service mongodb start
 8. Запускаем роботов:
 	java -jar target/crawler-0.0.1.jar
